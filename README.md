@@ -347,3 +347,8 @@ out on the Avalanche Discord._
   with a refund action (this will allow for "user-driven" acks on
   messages, which will remain signable and in state until a refund action is
   issued)
+
+# Author
+Priyansh [@priyansh06rawat](https://github.com/priyansh06rawat)
+# License
+This project is licensed under the MIT license - see the license.md file for more details.
