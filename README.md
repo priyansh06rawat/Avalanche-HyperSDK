@@ -18,6 +18,7 @@ Before we begin, you’ll need to install GO on your system. You can do so by cl
   a) Go to consts/consts.go and add the missing parts.
 4) Register the Create_Asset and Mint_Assest actions in registry/registry.go
 5) Run your VM locally
+   
    a) Make sure Go is on your path, defined on your terminal, if not you can do so by running export PATH=$PATH:$(go env GOPATH)/bin
    
      i)  If this path doesn’t work, you can also try export PATH=$PATH:/usr/local/go/bin
@@ -30,7 +31,8 @@ Before we begin, you’ll need to install GO on your system. You can do so by cl
    
    d) Load the demo private key included on the project ./build/token-cli key import demo.pk and ./build/token-cli chain import-anr
    
-7) Interact with your own HyperChain!
+6) Interact with your own HyperChain!
+   
    a) Use the demos included in the README file or located at the repo in step 1
    
-9) To close your Local Avalanche Network run killall avalanche-network-runner
+7) To close your Local Avalanche Network run killall avalanche-network-runner
